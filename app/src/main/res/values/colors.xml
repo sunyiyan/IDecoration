@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTheme">#FF6100</color>
+    <color name="colorPrimary">#FF3100</color>
+    <color name="colorPrimaryDark">#FF6100</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTitle">#8E8E8E</color>
+    <color name="colorCutLine">#CCCCCC</color>
+    <color name="colorTitleBackground">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorGray">#8E8E8E</color>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/icon_btn_main_normal"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/title_text_size_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_templates"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/icon_btn_main_normal"
+            android:text="发现"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/title_text_size_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_i_want"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/icon_btn_main_normal"
+            android:text="我要\n装修"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/title_text_size_small"
+            android:paddingTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_masters"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/icon_btn_main_normal"
+            android:text="团队"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/title_text_size_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_mine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/icon_btn_main_normal"
+            android:text="我的"
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/title_text_size_small" />
+    </LinearLayout>
+</LinearLayout>

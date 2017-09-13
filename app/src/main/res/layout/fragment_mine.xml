@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haipeng.decoration.fragment.HomePageFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTheme" />
+
+            <LinearLayout
+                android:id="@+id/ll_sign_in_ok"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="张三"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_init_sign"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_sign_up"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="40dp"
+                    android:text="注册" />
+
+                <Button
+                    android:id="@+id/btn_sign_in"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="登录" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:columnCount="3"
+            android:padding="10dp"
+            android:useDefaultMargins="true">
+            <!--android:layout_weight="4"-->
+
+
+            <Button
+                android:id="@+id/tv_myOrder"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorGray"
+                android:text="我的订单" />
+            <!--android:layout_columnWeight="1"-->
+            <Button
+                android:id="@+id/tv_myInfo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorGray"
+                android:text="设置" />
+            <!--android:layout_columnWeight="1"-->
+            <Button
+                android:id="@+id/btn_master"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorGray"
+                android:text="我的师傅" />
+            <!--android:layout_columnWeight="1"-->
+            <Button
+                android:id="@+id/btn_store"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/colorGray"
+                android:text="逛逛商城" />
+            <!--android:layout_columnWeight="1"-->
+
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>
